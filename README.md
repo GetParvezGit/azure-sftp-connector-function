@@ -39,7 +39,7 @@ Configuration keys follow a naming convention to support multiple SFTP systems a
 
 Example (local.settings.json - DO NOT commit secrets):
 
-
+```
 {
   "IsEncrypted": false,
   "Values": {
@@ -57,7 +57,7 @@ Example (local.settings.json - DO NOT commit secrets):
     "SftpPassword_WinSCP_Other": "<password>"
   }
 }
-
+```
 
 ## Build and run locally
 
